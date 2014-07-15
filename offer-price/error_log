@@ -1,0 +1,93 @@
+[30-May-2013 06:29:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/offerapp/public_html/coupon-API/coupon_ui.php:1) in /home/offerapp/public_html/coupon-API/coupon_ui.php on line 97
+[30-May-2013 06:29:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/offerapp/public_html/coupon-API/coupon_ui.php:1) in /home/offerapp/public_html/coupon-API/coupon_ui.php on line 97
+[24-Feb-2014 14:49:37 America/Detroit] PHP Parse error:  syntax error, unexpected ':' in /home/makeanof/public_html/application/offer-price/coupon_cart.php on line 51
+[24-Feb-2014 14:50:20 America/Detroit] PHP Parse error:  syntax error, unexpected ':' in /home/makeanof/public_html/application/offer-price/coupon_cart.php on line 51
+[24-Feb-2014 14:50:35 America/Detroit] PHP Parse error:  syntax error, unexpected ':' in /home/makeanof/public_html/application/offer-price/coupon_cart.php on line 51
+[24-Feb-2014 14:58:13 America/Detroit] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ':' in /home/makeanof/public_html/application/offer-price/coupon_cart.php on line 53
+[24-Feb-2014 14:58:22 America/Detroit] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ':' in /home/makeanof/public_html/application/offer-price/coupon_cart.php on line 53
+[17-Mar-2014 09:54:00 America/Detroit] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/makeanof/public_html/application/lib/widgetFunctions.php:71) in /home/makeanof/public_html/application/offer-price/coupon_ui.php on line 113
+[18-Mar-2014 10:23:17 America/Detroit] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/application/lib/Db.class.php on line 24
+[18-Mar-2014 10:23:17 America/Detroit] PHP Notice:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/application/lib/Db.class.php on line 24
+[18-Mar-2014 10:23:17 America/Detroit] PHP Warning:  mysql_select_db(): Lost connection to MySQL server at 'reading initial communication packet', system error: 104 in /home/makeanof/public_html/application/lib/Db.class.php on line 25
+[18-Mar-2014 10:23:17 America/Detroit] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/makeanof/public_html/application/lib/Db.class.php on line 25
+[18-Mar-2014 10:23:17 America/Detroit] PHP Notice:  Lost connection to MySQL server at 'reading initial communication packet', system error: 104 in /home/makeanof/public_html/application/lib/Db.class.php on line 25
+[18-Mar-2014 10:23:17 America/Detroit] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/makeanof/public_html/application/lib/Db.class.php on line 26
+[18-Mar-2014 10:23:17 America/Detroit] PHP Warning:  mysql_query(): A link to the server could not be established in /home/makeanof/public_html/application/lib/Db.class.php on line 26
+[18-Mar-2014 10:23:17 America/Detroit] PHP Warning:  mysql_real_escape_string(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/makeanof/public_html/application/offer-price/coupon_ui.php on line 21
+[18-Mar-2014 10:23:17 America/Detroit] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/makeanof/public_html/application/offer-price/coupon_ui.php on line 21
+[18-Mar-2014 10:23:17 America/Detroit] PHP Warning:  mysql_real_escape_string(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/makeanof/public_html/application/offer-price/coupon_ui.php on line 22
+[18-Mar-2014 10:23:17 America/Detroit] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/makeanof/public_html/application/offer-price/coupon_ui.php on line 22
+[18-Mar-2014 10:24:53 America/Detroit] PHP Warning:  mysql_connect(): Can't connect to loc[26-Jun-2014 08:27:08 America/Detroit] PHP Parse error:  syntax error, unexpected '{' in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 30
+[26-Jun-2014 08:27:27 America/Detroit] PHP Parse error:  syntax error, unexpected '{' in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 30
+[26-Jun-2014 08:27:44 America/Detroit] PHP Parse error:  syntax error, unexpected '{' in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 30
+[26-Jun-2014 08:29:03 America/Detroit] PHP Parse error:  syntax error, unexpected '{' in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 17
+[26-Jun-2014 08:29:24 America/Detroit] PHP Parse error:  syntax error, unexpected '{' in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 34
+[26-Jun-2014 08:29:57 America/Detroit] PHP Parse error:  syntax error, unexpected '{' in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 35
+[26-Jun-2014 08:30:08 America/Detroit] PHP Parse error:  syntax error, unexpected '{' in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 36
+[26-Jun-2014 08:30:50 America/Detroit] PHP Fatal error:  Call to undefined function d() in /home/makeanof/public_html/application/lib/Db.class.php on line 44
+[26-Jun-2014 08:31:19 America/Detroit] PHP Fatal error:  Call to undefined function d() in /home/makeanof/public_html/application/lib/Db.class.php on line 44
+[26-Jun-2014 08:32:18 America/Detroit] PHP Fatal error:  Call to undefined function _mail() in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 34
+[26-Jun-2014 08:32:38 America/Detroit] PHP Notice:  Use of undefined constant _PATH - assumed '_PATH' in /home/makeanof/public_html/application/lib/utils.php on line 403
+[26-Jun-2014 08:32:38 America/Detroit] PHP Warning:  require_once(_PATHlib/mail/swift/lib/swift_required.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/lib/utils.php on line 403
+[26-Jun-2014 08:32:38 America/Detroit] PHP Fatal error:  require_once(): Failed opening required '_PATHlib/mail/swift/lib/swift_required.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/lib/utils.php on line 403
+[26-Jun-2014 08:33:47 America/Detroit] PHP Warning:  require_once(/home/makeanof/public_html/application/offer-price/jeffApprove.phplib/mail/swift/lib/swift_required.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/lib/utils.php on line 403
+[26-Jun-2014 08:33:47 America/Detroit] PHP Fatal error:  require_once(): Failed opening required '/home/makeanof/public_html/application/offer-price/jeffApprove.phplib/mail/swift/lib/swift_required.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/lib/utils.php on line 403
+[26-Jun-2014 08:35:38 America/Detroit] PHP Warning:  require_once(/home/makeanof/public_html/application/offer-price/jeffApprove.phplib/mail/swift/lib/swift_required.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/lib/utils.php on line 403
+[26-Jun-2014 08:35:38 America/Detroit] PHP Fatal error:  require_once(): Failed opening required '/home/makeanof/public_html/application/offer-price/jeffApprove.phplib/mail/swift/lib/swift_required.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/lib/utils.php on line 403
+[26-Jun-2014 08:36:18 America/Detroit] PHP Notice:  Use of undefined constant MAIL_FROM_EMAIL - assumed 'MAIL_FROM_EMAIL' in /home/makeanof/public_html/application/lib/utils.php on line 418
+[26-Jun-2014 08:36:18 America/Detroit] PHP Notice:  Use of undefined constant MAIL_FROM_NAME - assumed 'MAIL_FROM_NAME' in /home/makeanof/public_html/application/lib/utils.php on line 418
+[26-Jun-2014 08:36:18 America/Detroit] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [MAIL_FROM_EMAIL] does not comply with RFC 2822, 3.6.2.' in /home/makeanof/public_html/application/lib/mail/swift/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/makeanof/public_html/application/lib/mail/swift/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('MAIL_FROM_EMAIL')
+#1 /home/makeanof/public_html/application/lib/mail/swift/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/makeanof/public_html/application/lib/mail/swift/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/makeanof/public_html/application/lib/mail/swift/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/makeanof/public_html/application/lib/mail/swift/lib/cl in /home/makeanof/public_html/application/lib/mail/swift/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[27-Jun-2014 02:19:54 America/Detroit] PHP Parse error:  syntax error, unexpected '[' in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 50
+[27-Jun-2014 02:20:34 America/Detroit] PHP Parse error:  syntax error, unexpected '[' in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 50
+[27-Jun-2014 02:21:07 America/Detroit] PHP Parse error:  syntax error, unexpected '[' in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 50
+[27-Jun-2014 06:33:43 America/Detroit] PHP Parse error:  syntax error, unexpected '[' in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 55
+[27-Jun-2014 06:34:05 America/Detroit] PHP Parse error:  syntax error, unexpected '[' in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 55
+[27-Jun-2014 06:35:59 America/Detroit] PHP Notice:  Undefined index: productid in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 27
+[27-Jun-2014 06:35:59 America/Detroit] PHP Notice:  Undefined offset: 0 in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 37
+[27-Jun-2014 06:35:59 America/Detroit] PHP Notice:  Undefined offset: 0 in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 38
+[27-Jun-2014 07:00:48 America/Detroit] PHP Notice:  Undefined index: c_store_url in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 39
+[27-Jun-2014 07:10:35 America/Detroit] PHP Notice:  Undefined index: c_store_url in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 39
+[27-Jun-2014 07:12:14 America/Detroit] PHP Notice:  Undefined index: c_store_url in /home/makeanof/public_html/application/offer-price/jeffApprove.php on line 39
+[28-Jun-2014 03:08:30 America/Detroit] PHP Parse error:  syntax error, unexpected '$discount' (T_VARIABLE) in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 50
+[28-Jun-2014 03:09:13 America/Detroit] PHP Fatal error:  Class 'Bigcommerce' not found in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 56
+[28-Jun-2014 03:37:58 America/Detroit] PHP Notice:  Undefined index: c_p_name in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 38
+[28-Jun-2014 01:37:59 America/Denver] PHP Notice:  Undefined variable: store_url in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 116
+[28-Jun-2014 01:37:59 America/Denver] PHP Notice:  Undefined variable: price in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 117
+[28-Jun-2014 01:37:59 America/Denver] PHP Fatal error:  Call to undefined function _mail() in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 125
+[28-Jun-2014 01:38:31 America/Denver] PHP Notice:  Undefined variable: store_url in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 117
+[28-Jun-2014 01:38:31 America/Denver] PHP Notice:  Undefined variable: price in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 118
+[28-Jun-2014 01:38:31 America/Denver] PHP Notice:  Use of undefined constant _PATH - assumed '_PATH' in /home/makeanof/public_html/application/lib/utils.php on line 403
+[28-Jun-2014 01:38:31 America/Denver] PHP Warning:  require_once(_PATHlib/mail/swift/lib/swift_required.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/lib/utils.php on line 403
+[28-Jun-2014 01:38:31 America/Denver] PHP Fatal error:  require_once(): Failed opening required '_PATHlib/mail/swift/lib/swift_required.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/lib/utils.php on line 403
+[28-Jun-2014 01:38:53 America/Denver] PHP Notice:  Undefined variable: store_url in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 118
+[28-Jun-2014 01:38:53 America/Denver] PHP Notice:  Undefined variable: price in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 119
+[28-Jun-2014 01:39:09 America/Denver] PHP Notice:  Undefined variable: store_url in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 118
+[28-Jun-2014 01:39:09 America/Denver] PHP Notice:  Undefined variable: price in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 119
+[28-Jun-2014 01:40:15 America/Denver] PHP Notice:  Undefined variable: store_url in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 118
+[28-Jun-2014 01:40:15 America/Denver] PHP Notice:  Undefined variable: price in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 119
+[28-Jun-2014 01:41:47 America/Denver] PHP Notice:  Undefined variable: store_url in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 118
+[28-Jun-2014 02:42:57 America/Denver] PHP Notice:  Undefined variable: store_url in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 118
+[28-Jun-2014 03:40:39 America/Denver] PHP Notice:  Undefined variable: store_url in /home/makeanof/public_html/application/offer-price/approveOffer.php on line 118
+[28-Jun-2014 05:40:55 America/Detroit] PHP Notice:  Undefined variable: product_name in /home/makeanof/public_html/application/offer-price/rejectOffer.php on line 24
+[28-Jun-2014 05:40:55 America/Detroit] PHP Notice:  Undefined variable: store_url in /home/makeanof/public_html/application/offer-price/rejectOffer.php on line 26
+[28-Jun-2014 05:40:55 America/Detroit] PHP Notice:  Undefined variable: product_name in /home/makeanof/public_html/application/offer-price/rejectOffer.php on line 26
+[28-Jun-2014 05:40:55 America/Detroit] PHP Notice:  Undefined variable: base_discount_price in /home/makeanof/public_html/application/offer-price/rejectOffer.php on line 27
+[28-Jun-2014 05:40:55 America/Detroit] PHP Notice:  Undefined variable: offerprice in /home/makeanof/public_html/application/offer-price/rejectOffer.php on line 28
+[28-Jun-2014 05:40:55 America/Detroit] PHP Notice:  Undefined variable: email in /home/makeanof/public_html/application/offer-price/rejectOffer.php on line 36
+[28-Jun-2014 05:40:55 America/Detroit] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/makeanof/public_html/application/lib/mail/swift/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/makeanof/public_html/application/lib/mail/swift/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/makeanof/public_html/application/lib/mail/swift/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/makeanof/public_html/application/lib/mail/swift/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/makeanof/public_html/application/lib/mail/swift/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/makeanof/public_html/application/lib/mail/swift/lib/classes/Swift/Mime/SimpleHea in /home/makeanof/public_html/application/lib/mail/swift/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[28-Jun-2014 05:41:39 America/Detroit] PHP Notice:  Undefined variable: product_name in /home/makeanof/public_html/application/offer-price/rejectOffer.php on line 32
+[28-Jun-2014 05:41:39 America/Detroit] PHP Notice:  Undefined variable: store_url in /home/makeanof/public_html/application/offer-price/rejectOffer.php on line 34
+[28-Jun-2014 05:41:39 America/Detroit] PHP Notice:  Undefined variable: product_name in /home/makeanof/public_html/application/offer-price/rejectOffer.php on line 34
+[28-Jun-2014 05:41:39 America/Detroit] PHP Notice:  Undefined variable: base_discount_price in /home/makeanof/public_html/application/offer-price/rejectOffer.php on line 35

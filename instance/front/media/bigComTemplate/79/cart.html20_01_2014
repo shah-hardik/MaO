@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+%%Panel.HTMLHead%%
+    
+<!--- Conversions On Demand script, more info at www.conversionsondemand.com – Do Not Remove or Replace -->
+<script language="javascript">
+    var cod_page_guid = 'CART';
+    var COD_CONFIG = {'platform':'bigcommerce','stoken':'blazedepot_com'};
+    var cod_current_subtotal='%%GLOBAL_CartItemTotal%%';
+</script>
+    <script language="javascript" src="https://www.conversionsondemand.com/codadmin2/framework/core/couponHandler.php?p=bigcommerce&d=blazedepot_com"></script>   
+<!--- Conversions On Demand script, more info at www.conversionsondemand.com – Do Not Remove or Replace -->    
+    
+<body>
+    <script type="text/javascript" src="%%GLOBAL_CdnAppPath%%/javascript/cart.js?%%GLOBAL_JSCacheToken%%"></script>
+    <div id="Container">
+    %%Panel.Header%%
+          %%Panel.PagesMenu%%
+
+    <div id="Wrapper">
+       
+        
+        <div class="Left">
+           
+            %%Panel.SideAdvt1%%
+            
+          
+        </div>
+       
+        <div class="Content" id="LayoutColumn2" style="background:none;">
+            
+            %%Panel.CartHeader%%
+            <br />
+           
+            %%Panel.CartStatusMessage%%
+            %%Panel.CartContent%%
+            
+            
+        </div>
+    
+        <br class="Clear" />
+    </div>
+    
+</div>
+%%Panel.Footer%%
+    
+<!--- Conversions On Demand script, more info at https://www.conversionsondemand.com - Do Not Remove or Replace -->
+<script type='text/javascript'>// <![CDATA[
+    var cod_page_guid = 'CART';
+    var COD_CONFIG = {'platform':'bigcommerce', 'stoken':'blazedepot_com'};
+        (function(){
+            var divCOD = document.createElement('div');
+            divCOD.id = 'codScripts';
+            var bodytag = document.getElementsByTagName('body')[0];
+            bodytag.appendChild(divCOD);
+            var cod = document.createElement('script');
+            cod.type = 'text/javascript';
+            cod.src = 'https://www.conversionsondemand.com/codadmin2/framework/cod-scripts-loader.js';
+            var s = document.getElementById('codScripts');
+            s.parentNode.insertBefore(cod, s);
+        })(COD_CONFIG);
+// ]]></script>
+<!--- Conversions On Demand script, more info at https://www.conversionsondemand.com - Do Not Remove or Replace -->    
+    
+</body>
+</html>

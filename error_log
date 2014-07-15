@@ -1,0 +1,410 @@
+[07-Dec-2013 07:33:51 America/Denver] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'offerapp_product'@'localhost' (using password: YES) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[07-Dec-2013 07:33:51 America/Denver] PHP Notice:  Access denied for user 'offerapp_product'@'localhost' (using password: YES) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[07-Dec-2013 07:33:51 America/Denver] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[07-Dec-2013 07:33:51 America/Denver] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[07-Dec-2013 07:33:51 America/Denver] PHP Notice:  Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[07-Dec-2013 07:33:51 America/Denver] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[07-Dec-2013 07:33:51 America/Denver] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[07-Dec-2013 07:38:23 America/Denver] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'offerapp_product'@'localhost' (using password: YES) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[07-Dec-2013 07:38:23 America/Denver] PHP Notice:  Access denied for user 'offerapp_product'@'localhost' (using password: YES) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[07-Dec-2013 07:38:23 America/Denver] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[07-Dec-2013 07:38:23 America/Denver] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[07-Dec-2013 07:38:23 America/Denver] PHP Notice:  Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[07-Dec-2013 07:38:23 America/Denver] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[07-Dec-2013 07:38:23 America/Denver] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[07-Dec-2013 07:38:35 America/Denver] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'offerapp_product'@'localhost' (using password: YES) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[07-Dec-2013 07:38:35 America/Denver] PHP Notice:  Access denied for user 'offerapp_product'@'localhost' (using password: YES) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[07-Dec-2013 07:38:35 America/Denver] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[07-Dec-2013 07:38:35 America/Denver] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[07-Dec-2013 07:38:35 America/Denver] PHP Notice:  Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[07-Dec-2013 07:38:35 America/Denver] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[07-Dec-2013 07:38:35 America/Denver] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[16-Dec-2013 06:59:37 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[16-Dec-2013 06:59:37 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[16-Dec-2013 07:12:08 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[16-Dec-2013 07:12:08 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[17-Dec-2013 00:54:10 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[17-Dec-2013 00:54:10 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[17-Dec-2013 00:54:31 America/Denver] PHP Notice:  Undefined index: username in /home/makeanof/public_html/mao_alpha/instance/front/controller/s2signup.inc.php on line 25
+[17-Dec-2013 00:54:31 America/Denver] PHP Notice:  Undefined index: first_name in /home/makeanof/public_html/mao_alpha/instance/front/controller/s2signup.inc.php on line 26
+[17-Dec-2013 00:54:31 America/Denver] PHP Notice:  Undefined index: last_name in /home/makeanof/public_html/mao_alpha/instance/front/controller/s2signup.inc.php on line 26
+[17-Dec-2013 00:54:31 America/Denver] PHP Notice:  Undefined index: email in /home/makeanof/public_html/mao_alpha/instance/front/controller/s2signup.inc.php on line 27
+[17-Dec-2013 00:54:31 America/Denver] PHP Notice:  Undefined index: password in /home/makeanof/public_html/mao_alpha/instance/front/controller/s2signup.inc.php on line 28
+[17-Dec-2013 00:54:31 America/Denver] PHP Notice:  Undefined index: first_name in /home/makeanof/public_html/mao_alpha/instance/front/controller/s2signup.inc.php on line 29
+[17-Dec-2013 00:54:31 America/Denver] PHP Notice:  Undefined index: last_name in /home/makeanof/public_html/mao_alpha/instance/front/controller/s2signup.inc.php on line 30
+[17-Dec-2013 00:54:31 America/Denver] PHP Notice:  Undefined index: level in /home/makeanof/public_html/mao_alpha/instance/front/controller/s2signup.inc.php on line 31
+[17-Dec-2013 00:54:31 America/Denver] PHP Notice:  Undefined index: ip in /home/makeanof/public_html/mao_alpha/instance/front/controller/s2signup.inc.php on line 32
+[17-Dec-2013 00:54:31 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[17-Dec-2013 00:54:31 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[17-Dec-2013 00:54:31 America/Denver] PHP Notice:  Undefined index: ip in /home/makeanof/public_html/mao_alpha/instance/front/controller/s2signup.inc.php on line 45
+[17-Dec-2013 00:54:31 America/Denver] PHP Notice:  Undefined index: password in /home/makeanof/public_html/mao_alpha/instance/front/controller/s2signup.inc.php on line 52
+[17-Dec-2013 00:56:33 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[17-Dec-2013 00:56:33 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[17-Dec-2013 00:59:32 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[17-Dec-2013 00:59:32 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[18-Dec-2013 05:17:20 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message 'SSL connect error' in /home/makeanof/public_html/mao_alpha/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/mao_alpha/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/mao_alpha/bigcommerce.php(63): Bigcommerce\Api\Connection->get('https://tungste...')
+#2 /home/makeanof/public_html/mao_alpha/bigcommerce.php(136): Bigcommerce\Api\Client::getCollection('/products?categ...', 'Product')
+#3 /home/makeanof/public_html/mao_alpha/instance/front/controller/import.inc.php(99): Bigcommerce\Api\Client::getProducts(Array)
+#4 /home/makeanof/public_html/mao_alpha/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/mao_alpha/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/mao_alpha/bigcommerce.php on line 448
+[18-Dec-2013 05:17:40 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message 'SSL connect error' in /home/makeanof/public_html/mao_alpha/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/mao_alpha/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/mao_alpha/bigcommerce.php(63): Bigcommerce\Api\Connection->get('https://tungste...')
+#2 /home/makeanof/public_html/mao_alpha/bigcommerce.php(136): Bigcommerce\Api\Client::getCollection('/products?categ...', 'Product')
+#3 /home/makeanof/public_html/mao_alpha/instance/front/controller/import.inc.php(99): Bigcommerce\Api\Client::getProducts(Array)
+#4 /home/makeanof/public_html/mao_alpha/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/mao_alpha/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/mao_alpha/bigcommerce.php on line 448
+[18-Dec-2013 07:05:59 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message 'SSL connect error' in /home/makeanof/public_html/mao_alpha/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/mao_alpha/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/mao_alpha/bigcommerce.php(63): Bigcommerce\Api\Connection->get('https://tungste...')
+#2 /home/makeanof/public_html/mao_alpha/bigcommerce.php(187): Bigcommerce\Api\Client::getCollection('/categories', 'Category')
+#3 /home/makeanof/public_html/mao_alpha/instance/front/controller/import.inc.php(40): Bigcommerce\Api\Client::getCategories()
+#4 /home/makeanof/public_html/mao_alpha/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/mao_alpha/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/mao_alpha/bigcommerce.php on line 448
+[18-Dec-2013 07:06:18 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message 'SSL connect error' in /home/makeanof/public_html/mao_alpha/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/mao_alpha/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/mao_alpha/bigcommerce.php(63): Bigcommerce\Api\Connection->get('https://tungste...')
+#2 /home/makeanof/public_html/mao_alpha/bigcommerce.php(187): Bigcommerce\Api\Client::getCollection('/categories', 'Category')
+#3 /home/makeanof/public_html/mao_alpha/instance/front/controller/import.inc.php(40): Bigcommerce\Api\Client::getCategories()
+#4 /home/makeanof/public_html/mao_alpha/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/mao_alpha/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/mao_alpha/bigcommerce.php on line 448
+[18-Dec-2013 07:42:49 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message 'SSL connect error' in /home/makeanof/public_html/mao_alpha/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/mao_alpha/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/mao_alpha/bigcommerce.php(63): Bigcommerce\Api\Connection->get('https://tungste...')
+#2 /home/makeanof/public_html/mao_alpha/bigcommerce.php(187): Bigcommerce\Api\Client::getCollection('/categories', 'Category')
+#3 /home/makeanof/public_html/mao_alpha/instance/front/controller/import.inc.php(43): Bigcommerce\Api\Client::getCategories()
+#4 /home/makeanof/public_html/mao_alpha/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/mao_alpha/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/mao_alpha/bigcommerce.php on line 448
+[25-Dec-2013 14:39:42 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[25-Dec-2013 14:39:42 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[28-Dec-2013 19:43:01 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[28-Dec-2013 19:43:01 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[08-Jan-2014 15:24:34 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[08-Jan-2014 15:24:34 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[08-Jan-2014 17:49:32 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[08-Jan-2014 17:49:32 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[09-Jan-2014 12:56:12 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[09-Jan-2014 12:56:12 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[11-Jan-2014 10:56:35 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[11-Jan-2014 10:56:35 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[11-Jan-2014 12:29:42 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[11-Jan-2014 12:29:42 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[14-Jan-2014 05:56:26 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[14-Jan-2014 05:56:26 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[14-Jan-2014 12:39:44 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message 'Couldn't resolve host 'shipping24hours.com'' in /home/makeanof/public_html/mao_alpha/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/mao_alpha/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/mao_alpha/bigcommerce.php(63): Bigcommerce\Api\Connection->get('https://shippin...')
+#2 /home/makeanof/public_html/mao_alpha/bigcommerce.php(187): Bigcommerce\Api\Client::getCollection('/categories', 'Category')
+#3 /home/makeanof/public_html/mao_alpha/instance/front/controller/import.inc.php(43): Bigcommerce\Api\Client::getCategories()
+#4 /home/makeanof/public_html/mao_alpha/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/mao_alpha/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/mao_alpha/bigcommerce.php on line 448
+[14-Jan-2014 13:12:18 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[14-Jan-2014 13:12:18 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[19-Jan-2014 21:00:47 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[19-Jan-2014 21:00:47 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[20-Jan-2014 21:23:56 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[20-Jan-2014 21:23:56 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[22-Jan-2014 09:19:09 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 09:19:09 America/Chicago] PHP Notice:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 09:19:09 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 09:19:09 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 09:19:09 America/Chicago] PHP Notice:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 09:19:09 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 09:19:09 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 09:19:09 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 09:19:09 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 09:19:09 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[22-Jan-2014 09:19:09 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[22-Jan-2014 11:22:50 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 11:22:52 America/Chicago] PHP Notice:  Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 11:22:53 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:22:56 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:22:57 America/Chicago] PHP Notice:  Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:23:00 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 11:23:07 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 11:23:10 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 11:32:47 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 11:32:47 America/Chicago] PHP Notice:  Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 11:32:48 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:32:48 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:32:50 America/Chicago] PHP Notice:  Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:32:50 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 11:32:50 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 11:32:50 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Too many connections in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 11:32:51 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 11:32:51 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Too many connections in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[22-Jan-2014 11:32:55 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[22-Jan-2014 11:43:09 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 11:43:09 America/Chicago] PHP Notice:  Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 11:43:11 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:43:14 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:43:14 America/Chicago] PHP Notice:  Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:43:15 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 11:43:15 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 11:43:16 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 11:43:18 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 11:43:22 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[22-Jan-2014 11:43:25 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[22-Jan-2014 11:43:31 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 11:43:32 America/Chicago] PHP Notice:  Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 11:43:38 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:43:44 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:43:45 America/Chicago] PHP Notice:  Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:43:45 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 11:43:49 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 11:43:51 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 11:44:39 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 11:44:41 America/Chicago] PHP Notice:  Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 11:44:43 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:44:44 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:44:52 America/Chicago] PHP Notice:  Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 11:44:54 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Too many connections in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 11:45:00 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 11:45:01 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 11:45:06 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 11:45:06 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'makeanof'@'localhost' (using password: NO) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[22-Jan-2014 11:45:10 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[22-Jan-2014 16:29:37 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 16:29:37 America/Chicago] PHP Notice:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 16:29:37 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 16:29:37 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 16:29:37 America/Chicago] PHP Notice:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 16:29:37 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 16:29:37 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 16:29:37 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 16:29:37 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 16:29:37 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[22-Jan-2014 16:29:37 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[22-Jan-2014 16:29:58 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 16:29:58 America/Chicago] PHP Notice:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 16:29:58 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 16:29:58 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 16:29:58 America/Chicago] PHP Notice:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 16:29:58 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 16:29:58 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 16:29:58 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 16:29:58 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 16:29:58 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[22-Jan-2014 16:29:58 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[22-Jan-2014 16:30:31 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 16:30:31 America/Chicago] PHP Notice:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 24
+[22-Jan-2014 16:30:31 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 16:30:31 America/Chicago] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 16:30:31 America/Chicago] PHP Notice:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 25
+[22-Jan-2014 16:30:31 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 16:30:31 America/Chicago] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/lib/Db.class.php on line 26
+[22-Jan-2014 16:30:31 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 16:30:31 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 23
+[22-Jan-2014 16:30:31 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[22-Jan-2014 16:30:31 America/Chicago] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/makeanof/public_html/mao_alpha/coupon_ui.php on line 24
+[24-Jan-2014 14:28:26 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[24-Jan-2014 14:28:26 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[28-Jan-2014 16:39:47 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[28-Jan-2014 16:39:47 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/mao_alpha/lib/utils.php on line 245
+[01-Feb-2014 19:28:31 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message 'failed setting cipher list' in /home/makeanof/public_html/application/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/application/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/application/bigcommerce.php(63): Bigcommerce\Api\Connection->get('https://tungste...')
+#2 /home/makeanof/public_html/application/bigcommerce.php(187): Bigcommerce\Api\Client::getCollection('/categories', 'Category')
+#3 /home/makeanof/public_html/application/instance/front/controller/import.inc.php(43): Bigcommerce\Api\Client::getCategories()
+#4 /home/makeanof/public_html/application/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/application/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/application/bigcommerce.php on line 448
+[01-Feb-2014 19:28:40 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message 'failed setting cipher list' in /home/makeanof/public_html/application/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/application/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/application/bigcommerce.php(63): Bigcommerce\Api\Connection->get('https://tungste...')
+#2 /home/makeanof/public_html/application/bigcommerce.php(187): Bigcommerce\Api\Client::getCollection('/categories', 'Category')
+#3 /home/makeanof/public_html/application/instance/front/controller/import.inc.php(43): Bigcommerce\Api\Client::getCategories()
+#4 /home/makeanof/public_html/application/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/application/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/application/bigcommerce.php on line 448
+[10-Feb-2014 04:27:02 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message 'failed setting cipher list' in /home/makeanof/public_html/application/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/application/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/application/bigcommerce.php(63): Bigcommerce\Api\Connection->get('https://londyni...')
+#2 /home/makeanof/public_html/application/bigcommerce.php(187): Bigcommerce\Api\Client::getCollection('/categories', 'Category')
+#3 /home/makeanof/public_html/application/instance/front/controller/import_product.inc.php(44): Bigcommerce\Api\Client::getCategories()
+#4 /home/makeanof/public_html/application/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/application/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/application/bigcommerce.php on line 448
+[10-Feb-2014 04:29:24 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message 'failed setting cipher list' in /home/makeanof/public_html/application/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/application/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/application/bigcommerce.php(63): Bigcommerce\Api\Connection->get('https://londyni...')
+#2 /home/makeanof/public_html/application/bigcommerce.php(187): Bigcommerce\Api\Client::getCollection('/categories', 'Category')
+#3 /home/makeanof/public_html/application/instance/front/controller/import_product.inc.php(44): Bigcommerce\Api\Client::getCategories()
+#4 /home/makeanof/public_html/application/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/application/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/application/bigcommerce.php on line 448
+[10-Feb-2014 06:46:23 America/Denver] PHP Notice:  Undefined variable: Heading in /home/makeanof/public_html/application/instance/front/tpl/header.php on line 204
+[10-Feb-2014 07:46:23 America/Chicago] PHP Notice:  Undefined index: link in /home/makeanof/public_html/application/instance/front/tpl/breadcrumb.php on line 18
+[10-Feb-2014 07:46:23 America/Chicago] PHP Notice:  Undefined variable: grt in /home/makeanof/public_html/application/instance/front/tpl/footer.php on line 38
+[12-Feb-2014 11:50:02 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/makeanof/public_html/application/lib/utils.php:197) in /home/makeanof/public_html/application/lib/utils.php on line 206
+[24-Feb-2014 06:40:15 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home/makeanof/public_html/application/instance/front/tpl/header.php on line 64
+[13-Mar-2014 06:59:34 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message '<url> malformed' in /home/makeanof/public_html/application/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/application/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/application/bigcommerce.php(73): Bigcommerce\Api\Connection->get('/products/count')
+#2 /home/makeanof/public_html/application/bigcommerce.php(140): Bigcommerce\Api\Client::getCount('/products/count')
+#3 /home/makeanof/public_html/application/instance/front/controller/import.inc.php(26): Bigcommerce\Api\Client::getProductsCount()
+#4 /home/makeanof/public_html/application/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/application/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/application/bigcommerce.php on line 448
+[13-Mar-2014 07:00:12 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message '<url> malformed' in /home/makeanof/public_html/application/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/application/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/application/bigcommerce.php(73): Bigcommerce\Api\Connection->get('/products/count')
+#2 /home/makeanof/public_html/application/bigcommerce.php(140): Bigcommerce\Api\Client::getCount('/products/count')
+#3 /home/makeanof/public_html/application/instance/front/controller/import.inc.php(26): Bigcommerce\Api\Client::getProductsCount()
+#4 /home/makeanof/public_html/application/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/application/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/application/bigcommerce.php on line 448
+[13-Mar-2014 07:00:17 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message '<url> malformed' in /home/makeanof/public_html/application/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/application/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/application/bigcommerce.php(73): Bigcommerce\Api\Connection->get('/products/count')
+#2 /home/makeanof/public_html/application/bigcommerce.php(140): Bigcommerce\Api\Client::getCount('/products/count')
+#3 /home/makeanof/public_html/application/instance/front/controller/import.inc.php(26): Bigcommerce\Api\Client::getProductsCount()
+#4 /home/makeanof/public_html/application/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/application/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/application/bigcommerce.php on line 448
+[16-Mar-2014 21:51:41 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[16-Mar-2014 21:51:41 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[16-Mar-2014 21:51:41 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[16-Mar-2014 21:51:41 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63
+[18-Mar-2014 08:22:28 America/Denver] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/application/lib/Db.class.php on line 24
+[18-Mar-2014 08:22:28 America/Denver] PHP Notice:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/application/lib/Db.class.php on line 24
+[18-Mar-2014 08:22:28 America/Denver] PHP Warning:  mysql_select_db(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/application/lib/Db.class.php on line 25
+[18-Mar-2014 08:22:28 America/Denver] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/makeanof/public_html/application/lib/Db.class.php on line 25
+[18-Mar-2014 08:22:28 America/Denver] PHP Notice:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/application/lib/Db.class.php on line 25
+[18-Mar-2014 08:22:28 America/Denver] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/makeanof/public_html/application/lib/Db.class.php on line 26
+[18-Mar-2014 08:22:28 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home/makeanof/public_html/application/lib/Db.class.php on line 26
+[20-Mar-2014 09:05:01 America/Detroit] PHP Warning:  session_start(): open(/tmp/sess_fdc6ece5490c465f5c4d3e44c31764f0, O_RDWR) failed: Permission denied (13) in /home/makeanof/public_html/application/index.php on line 18
+[20-Mar-2014 09:05:19 America/Detroit] PHP Warning:  session_start(): open(/tmp/sess_fdc6ece5490c465f5c4d3e44c31764f0, O_RDWR) failed: Permission denied (13) in /home/makeanof/public_html/application/index.php on line 18
+[15-Apr-2014 23:40:54 America/Denver] PHP Notice:  Undefined index: username in /home/makeanof/public_html/application/instance/front/controller/s2signup.inc.php on line 25
+[15-Apr-2014 23:40:54 America/Denver] PHP Notice:  Undefined index: first_name in /home/makeanof/public_html/application/instance/front/controller/s2signup.inc.php on line 26
+[15-Apr-2014 23:40:54 America/Denver] PHP Notice:  Undefined index: last_name in /home/makeanof/public_html/application/instance/front/controller/s2signup.inc.php on line 26
+[15-Apr-2014 23:40:54 America/Denver] PHP Notice:  Undefined index: email in /home/makeanof/public_html/application/instance/front/controller/s2signup.inc.php on line 27
+[15-Apr-2014 23:40:54 America/Denver] PHP Notice:  Undefined index: password in /home/makeanof/public_html/application/instance/front/controller/s2signup.inc.php on line 28
+[15-Apr-2014 23:40:54 America/Denver] PHP Notice:  Undefined index: first_name in /home/makeanof/public_html/application/instance/front/controller/s2signup.inc.php on line 29
+[15-Apr-2014 23:40:54 America/Denver] PHP Notice:  Undefined index: last_name in /home/makeanof/public_html/application/instance/front/controller/s2signup.inc.php on line 30
+[15-Apr-2014 23:40:54 America/Denver] PHP Notice:  Undefined index: level in /home/makeanof/public_html/application/instance/front/controller/s2signup.inc.php on line 31
+[15-Apr-2014 23:40:54 America/Denver] PHP Notice:  Undefined index: ip in /home/makeanof/public_html/application/instance/front/controller/s2signup.inc.php on line 32
+[15-Apr-2014 23:40:54 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/application/lib/utils.php on line 245
+[15-Apr-2014 23:40:54 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/application/lib/utils.php on line 245
+[15-Apr-2014 23:40:54 America/Denver] PHP Notice:  Undefined index: ip in /home/makeanof/public_html/application/instance/front/controller/s2signup.inc.php on line 45
+[15-Apr-2014 23:40:54 America/Denver] PHP Notice:  Undefined index: password in /home/makeanof/public_html/application/instance/front/controller/s2signup.inc.php on line 52
+[25-Apr-2014 02:43:08 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/application/lib/utils.php on line 245
+[25-Apr-2014 02:43:08 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/application/lib/utils.php on line 245
+[30-Apr-2014 10:18:08 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/application/lib/utils.php on line 245
+[30-Apr-2014 10:18:08 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/application/lib/utils.php on line 245
+[07-May-2014 04:56:26 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/application/lib/utils.php on line 245
+[07-May-2014 04:56:26 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/application/lib/utils.php on line 245
+[07-May-2014 05:20:52 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/application/lib/utils.php on line 245
+[07-May-2014 05:20:52 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/application/lib/utils.php on line 245
+[12-May-2014 09:53:08 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/application/lib/utils.php on line 245
+[12-May-2014 09:53:08 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/application/lib/utils.php on line 245
+[13-May-2014 22:35:36 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/application/lib/utils.php on line 245
+[13-May-2014 22:35:36 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/application/lib/utils.php on line 245
+[15-May-2014 15:25:55 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/application/lib/utils.php on line 245
+[15-May-2014 15:25:55 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/application/lib/utils.php on line 245
+[17-May-2014 02:16:29 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/application/lib/utils.php on line 245
+[17-May-2014 02:16:29 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/application/lib/utils.php on line 245
+[17-May-2014 03:10:02 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/application/lib/utils.php on line 245
+[17-May-2014 03:10:02 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/application/lib/utils.php on line 245
+[17-May-2014 03:16:38 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/application/lib/utils.php on line 245
+[17-May-2014 03:16:38 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/application/lib/utils.php on line 245
+[20-May-2014 09:53:19 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/application/lib/utils.php on line 245
+[20-May-2014 09:53:19 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/application/lib/utils.php on line 245
+[22-May-2014 02:40:30 America/Denver] PHP Notice:  Undefined index: c_cost in /home/makeanof/public_html/application/lib/utils.php on line 245
+[22-May-2014 02:40:30 America/Denver] PHP Notice:  Undefined index: c_offer_limit in /home/makeanof/public_html/application/lib/utils.php on line 245
+[02-Jun-2014 13:46:54 America/Denver] PHP Fatal error:  Uncaught exception 'Bigcommerce\Api\NetworkError' with message 'couldn't connect to host' in /home/makeanof/public_html/application/bigcommerce.php:448
+Stack trace:
+#0 /home/makeanof/public_html/application/bigcommerce.php(508): Bigcommerce\Api\Connection->handleResponse()
+#1 /home/makeanof/public_html/application/bigcommerce.php(73): Bigcommerce\Api\Connection->get('https://www.bea...')
+#2 /home/makeanof/public_html/application/bigcommerce.php(140): Bigcommerce\Api\Client::getCount('/products/count')
+#3 /home/makeanof/public_html/application/instance/front/controller/import.inc.php(132): Bigcommerce\Api\Client::getProductsCount()
+#4 /home/makeanof/public_html/application/loader.php(57): include('/home/makeanof/...')
+#5 /home/makeanof/public_html/application/index.php(25): include('/home/makeanof/...')
+#6 {main}
+  thrown in /home/makeanof/public_html/application/bigcommerce.php on line 448
+[16-Jun-2014 05:30:00 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 05:30:00 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 05:30:00 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[16-Jun-2014 05:30:00 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63
+[16-Jun-2014 14:58:11 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 14:58:11 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 14:58:11 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[16-Jun-2014 14:58:11 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63
+[16-Jun-2014 14:58:12 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 14:58:12 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 14:58:12 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[16-Jun-2014 14:58:12 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[16-Jun-2014 14:58:14 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63
+[17-Jun-2014 02:10:43 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[17-Jun-2014 02:10:43 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[17-Jun-2014 02:10:43 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[17-Jun-2014 02:10:43 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63
+[17-Jun-2014 02:10:43 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[17-Jun-2014 02:10:43 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[17-Jun-2014 02:10:43 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[17-Jun-2014 02:10:43 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63
+[17-Jun-2014 02:10:45 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[17-Jun-2014 02:10:45 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[17-Jun-2014 02:10:45 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[17-Jun-2014 02:10:45 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63
+[17-Jun-2014 02:10:45 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[17-Jun-2014 02:10:45 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[17-Jun-2014 02:10:45 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[17-Jun-2014 02:10:45 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63
+[17-Jun-2014 02:10:45 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[17-Jun-2014 02:10:45 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[17-Jun-2014 02:10:45 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[17-Jun-2014 02:10:45 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63
+[17-Jun-2014 02:10:46 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/config.inc.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 49
+[17-Jun-2014 02:10:46 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/config.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 49
+[17-Jun-2014 02:10:46 America/Denver] PHP Warning:  include(/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php): failed to open stream: No such file or directory in /home/makeanof/public_html/application/loader.php on line 63
+[17-Jun-2014 02:10:46 America/Denver] PHP Warning:  include(): Failed opening '/home/makeanof/public_html/application/instance/admin/tpl/index.tpl.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/makeanof/public_html/application/loader.php on line 63

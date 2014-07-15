@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+%%Panel.HTMLHead%%
+<body>
+    <script type="text/javascript" src="%%GLOBAL_CdnAppPath%%/javascript/cart.js?%%GLOBAL_JSCacheToken%%"></script>
+    <div id="Container">
+    %%Panel.Header%%
+
+    <div id="Wrapper">
+        %%Panel.WrapperBanner%%
+        <div class="Left" id="LayoutColumn1">
+            %%Panel.SideCategoryList%%
+            %%Panel.SideNewProducts%%
+            %%Panel.SideNewsletterBox%%
+        </div>
+        <div class="Content" id="LayoutColumn2">
+            %%Panel.CartBreadcrumb%%
+            %%Panel.CartHeader%%
+            %%Panel.CartStatusMessage%%
+            %%Panel.CartContent%%
+            %%Panel.SuggestiveCartContent%%
+        </div>
+        <div class="Right" id="LayoutColumn3">
+            %%Panel.SideCouponCodeBox%%
+            %%Panel.SideGiftCertificateCodeBox%%
+            %%Panel.SideProductRecentlyViewed%%
+            %%Panel.SideTopSellers%%
+        </div>
+        <br class="Clear" />
+        <div id="mao"></div><script type="text/javascript">$(document).ready(function(){ var product_id = $("#product_id").val() || $("input[name=product_id]").val(); $.getScript("http://www.makeanofferapp.com/mao_alpha/coupon_ui.php?cust_id=76&pid="+product_id, function(){ });});</script>
+        <script type="text/javascript">
+        //removes insidious unicode from all of the cart product attribute lists
+function removeGarbage(){
+$('table.productAttributes tbody tr').each(function(){
+var re = /[--­͸͹Ϳ-΃΋΍΢Ԩ-԰՗՘ՠֈ֋-֎֐׈-׏׫-ׯ׵-؅؜؝۝܎܏݋݌޲-޿߻-߿࠮࠯࠿࡜࡝࡟-࢟ࢡࢭ-ࣣࣿॸঀ঄঍঎঑঒঩঱঳-঵঺঻৅৆৉৊৏-৖৘-৛৞৤৥ৼ-਀਄਋-਎਑਒਩਱਴਷਺਻਽੃-੆੉੊੎-੐੒-੘੝੟-੥੶-઀઄઎઒઩઱઴઺઻૆૊૎૏૑-૟૤૥૲-଀଄଍଎଑଒଩଱଴଺଻୅୆୉୊୎-୕୘-୛୞୤୥୸-஁஄஋-஍஑஖-஘஛஝஠-஢஥-஧஫-஭஺-஽௃-௅௉௎௏௑-௖௘-௥௻-ఀఄ఍఑఩ఴ఺-఼౅౉౎-౔౗ౚ-౟౤౥౰-౷ಀಁ಄಍಑಩಴಺಻೅೉೎-೔೗-ೝ೟೤೥೰ೳ-ഁഄ഍഑഻഼൅൉൏-ൖ൘-ൟ൤൥൶-൸඀ඁ඄඗-඙඲඼඾඿෇-෉෋-෎෕෗෠-෱෵-฀฻-฾๜-຀຃຅ຆຉ຋ຌຎ-ຓຘຠ຤຦ຨຩຬ຺຾຿໅໇໎໏໚໛໠-໿཈཭-཰྘྽࿍࿛-࿿჆჈-჌჎჏቉቎቏቗቙቞቟኉኎኏኱኶኷኿዁዆዇዗጑጖጗፛፜፽-፿᎚-᎟Ᏽ-᏿᚝-᚟ᛱ-᛿ᜍ᜕-ᜟ᜷-᜿᝔-᝟᝭᝱᝴-᝿៞៟៪-៯៺-៿᠏᠚-᠟ᡸ-᡿᢫-᢯᣶-᣿ᤝ-᤟᤬-᤯᤼-᤿᥁-᥃᥮᥯᥵-᥿᦬-᦯᧊-᧏᧛-᧝᨜᨝᩟᩽᩾᪊-᪏᪚-᪟᪮-᫿ᭌ-᭏᭽-᭿᯴-᯻᰸-᰺᱊-᱌ᲀ-Ჿ᳈-᳏᳷-᳿ᷧ-᷻἖἗἞἟὆὇὎὏὘὚὜὞὾὿᾵῅῔῕῜῰῱῵῿-‏‪-‮⁠-⁯⁲⁳₏₝-₟₻-⃏⃱-⃿↊-↏⏴-⏿␧-␿⑋-⑟✀⭍-⭏⭚-⯿Ⱟⱟ⳴-⳸⴦⴨-⴬⴮⴯⵨-⵮⵱-⵾⶗-⶟⶧⶯⶷⶿⷇⷏⷗⷟⸼-⹿⺚⻴-⻿⿖-⿯⿼-⿿぀゗゘㄀-㄄ㄮ-㄰㆏ㆻ-ㆿ㇤-㇯㈟㋿䶶-䶿鿍-鿿꒍-꒏꓇-꓏꘬-꘿Ꚙ-ꚞ꛸-꛿ꞏꞔ-ꞟꞫ-ꟷ꠬-꠯꠺-꠿꡸-꡿ꣅ-꣍꣚-꣟꣼-ꣿ꥔-꥞꥽-꥿꧎꧚-꧝ꧠ-꧿꨷-꨿꩎꩏꩚꩛ꩼ-ꩿ꫃-꫚꫷-꬀꬇꬈꬏꬐꬗-꬟꬧꬯-ꮿ꯮꯯꯺-꯿힤-힯퟇-퟊퟼-﩮﩯﫚-﫿﬇-﬒﬘-﬜﬷﬽﬿﭂﭅﯂-﯒﵀-﵏﶐﶑﷈-﷯﷾﷿︚-︟︧-︯﹓﹧﹬-﹯﹵﻽-＀﾿-￁￈￉￐￑￘￙￝-￟￧￯-￻￾￿]/g;
+$('td span', this).html($('td span', this).html().replace(re, ''));
+$('td label', this).html($('td label', this).html().replace(re, ''));
+});
+}
+
+        $(document).ready(function(){removeGarbage();
+            $('.CartContents > tbody > tr').each(function(){
+                var noPaypal=$('.ProductName .productAttributes tr.First td:eq(0)', this).text(); 
+                noPaypal=$.trim(noPaypal).toString();
+                console.log(noPaypal)
+                if(noPaypal=="no paypal:"){
+                    console.log("match?")
+                    $('.PayPalExpressCheckout').remove();   
+                    $('.productAttributes label:contains("no paypal")').html("Paypal Checkout: No")                    
+                }
+            });
+        });
+        
+       </script>
+    %%Panel.Footer%%
+</div>
+        
+</body>
+</html>

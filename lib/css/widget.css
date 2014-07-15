@@ -1,0 +1,22 @@
+.maoContent{
+padding:17px;border:1px dashed #DDD
+}
+
+.buyproduct{
+margin-top:0px;font-family:verdana;margin-bottom:8px;
+}
+.dollarspan{
+font-weight:bold;font-size:18px;padding-right:10px;
+}
+.likeproduct
+{
+width:57%;height:24px;font-size:13px;color:#000;font-weight:bold;
+}
+.contact_fullname
+{
+width:222px;height:24px;font-size:13px;background-color:green;color:#FFF;font-weight:bold;
+}
+.resetcoupon
+{
+margin-left:10px;
+}

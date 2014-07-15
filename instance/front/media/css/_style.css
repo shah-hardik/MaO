@@ -1,0 +1,31 @@
+.display-none{
+    display: none;
+}
+.step_box{
+    padding: 5px; 
+}
+.box_inner{
+    width: 24.1%; 
+    border-right:1px solid #DDDDDD;
+    float:left;
+    height:30px;
+    padding: 5px;
+    text-align: center;
+    /*background-color: #5897fb;
+    color:#FFF;*/
+    font-weight: 200;
+    font-size: 20px;
+}
+.box_inner_active{
+   background-color: #97223D !important;
+   color:#F5F5F5 !important; 
+}
+.box_inner_last{ 
+    border-right:none !important;
+}
+.box_1{
+    height:40px;
+}
+.box_step_text{
+   margin-top:5px;
+}

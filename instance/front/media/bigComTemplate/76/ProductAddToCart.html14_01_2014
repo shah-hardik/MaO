@@ -1,0 +1,98 @@
+%%GLOBAL_AddToCartButtonControlScript%%
+<form method="post" action="%%GLOBAL_CartLink%%" onsubmit="return check_add_to_cart(this, %%GLOBAL_ProductOptionRequired%%) %%GLOBAL_FastCartButtonJs%%"  enctype="multipart/form-data" id="productDetailsAddToCartForm">
+    <input type="hidden" name="action" value="add" />
+    <input type="hidden" name="product_id" value="%%GLOBAL_ProductId%%" />
+    <input type="hidden" name="variation_id" class="CartVariationId" value="" />
+    <input type="hidden" name="currency_id" value="" />
+    <div class="ProductDetailsGrid ProductAddToCart">
+        %%SNIPPET_ProductFieldsList%%
+        <div class="ProductOptionList">
+            %%SNIPPET_VariationList%%
+        </div>
+        <div class="productAttributeList" style="%%GLOBAL_HideProductAttributeList%%">%%GLOBAL_ProductAttributeList%%</div>
+        %%SNIPPET_EventDate%%
+        <div class="DetailRow" style="display: %%GLOBAL_DisplayAdd%%">
+            <div class="Label QuantityInput" style="display: %%GLOBAL_DisplayAddQty%%">%%LNG_QuantityFull%%:</div>
+            <div class="Value AddCartButton">
+                <span class="FloatLeft" style="display: %%GLOBAL_DisplayAddQty%%;">
+                    %%GLOBAL_AddToCartQty%%
+                </span><br><br>
+                <div class="BulkDiscount" align="left"><span class="free shipping" style="display:inline; vertical-align: 6px; margin-left: -135px;color: blue;font-size: 13px;font-weight: 300;">Free Shipping USA&nbsp;</span>
+                    %%GLOBAL_AddToCartButtonOptimizerScriptTag%%
+                        <input type="image" src="%%GLOBAL_IMG_PATH%%/%%GLOBAL_SiteColor%%/AddCartButton.gif" alt="" />
+                    %%GLOBAL_AddToCartButtonOptimizerNoScriptTag%%
+                    <div class="BulkDiscountLink" style="width: 250px; margin-left: -134px; margin-top: 5px; display: %%GLOBAL_HideBulkDiscountLink%%;">    
+                        <a href="#" onclick="$.iModal({data: $('#ProductDetailsBulkDiscountThickBox').html(), width: 600}); return false;" style="color:#0000FF;">
+                            *Click Here To See Bulk / Special Pricing
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<link rel="stylesheet" type="text/css" href="/javascript/jquery/plugins/fancybox/fancybox.css" media="screen">
+<script type="text/javascript" src="/javascript/jquery/plugins/fancybox/fancybox.js?b84fd"></script>
+    
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+/* This is basic - uses default settings */
+
+$("a#single_image").fancybox();
+
+/* Using custom settings */
+
+$("a#inline").fancybox({
+'hideOnContentClick': true
+});
+
+/* Apply fancybox to multiple items */
+
+$(".iframe").fancybox({
+'transitionIn'    :    'elastic',
+'transitionOut'    :    'elastic',
+'speedIn'     :    600,
+'speedOut'     :    200,
+'overlayShow'    :    false
+
+});
+
+});
+
+</script>
+
+
+<div class="info-line" style="display:inline-block; margin-top:-15px;"><a class="iframe" href="/content/ask_the_expert.html" style="color:#0000FF;">Ask The Expert</a> | <b>Ph:</b> <a href="http://www.ringcentral.com" target="Callback_RingMe" onclick='var wind = window; var winop = wind.open; winop("https://service-officeathand.att.com/ringme/?uc=FCDEC741C5A0457E1CEC0D8C0A7D87F83298325718000,0,150&s=no&v=2&s_=3420", "Callback_RingMe", "resizable=no,width=650,height=460"); return false;' style="color:#0000FF;">323-306-2669</a> | <a href="http://www.botach.com" target="Callback_RingMe" onclick='var wind = window; var winop = wind.open; winop("http://botach.kayako.com/visitor/index.php?/LiveChat/Chat/Request/_sessionID=dcprryw90ys51yyaglg0iz04tum2qz2k/_proactive=0/_filterDepartmentID=/_randomNumber=59/_fullName=/_email=/_promptType=chat", "Live_Chat", "resizable=no,width=650,height=760"); return false;' style="color:#0000FF;">Live Chat</a></div><br>
+<br>
+
+<div style="display:block;">To purchase out of stock or quantities greater than inventory shows please <a href="http://www.botach.com/pages/information.html">Click Here</a></div>
+
+<div class="wishlist" align="center">
+        <form name="frmWishList" id="frmWishList" action="%%GLOBAL_ShopPath%%/wishlist.php" method="get">
+            <input type="hidden" name="action" value="add" />
+            <input type="hidden" name="product_id" value="%%GLOBAL_ProductId%%" />
+            <input type="hidden" name="variation_id" value="" class="WishListVariationId"/>
+            <p>%%GLOBAL_WishLists%%</p>
+            <p><input type="image" src="%%GLOBAL_IMG_PATH%%/%%GLOBAL_SiteColor%%/WishlistButton.gif" alt="%%LNG_AddToWishList%%" /></p>
+    </form>    
+</div>
+
+<div class="OutOfStockMessage">
+    %%SNIPPET_SideAddItemSoldOut%%
+</div>
+
+%%GLOBAL_ProductBulkDiscountThickBox%%
+
+<script language="javascript" type="text/javascript">//<![CDATA[
+lang.OptionMessage = "%%GLOBAL_OptionMessage%%";
+lang.VariationSoldOutMessage = "%%LNG_VariationSoldOutMessage%%";
+lang.InvalidQuantity = "%%LNG_InvalidQuantity%%";
+lang.EnterRequiredField = "%%LNG_EnterRequiredField%%";
+lang.InvalidFileTypeJS = "%%LNG_InvalidFileTypeJS%%";
+var ShowAddToCartQtyBox = "%%GLOBAL_ShowAddToCartQtyBox%%";
+%%GLOBAL_ProductMinMaxQtyJavascript%%
+//]]></script>
+%%GLOBAL_EventDateJavascript%%

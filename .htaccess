@@ -1,0 +1,21 @@
+RewriteEngine on
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+  
+# Disable access to php files
+<FilesMatch "\.(inc\.php)$">
+  Order allow,deny
+</FilesMatch>
+
+<FilesMatch "\.sql$">
+  Order allow,deny
+</FilesMatch>
+
+#<Directory /var/www/vhosts/makeanofferapp.com/httpdocs> 
+#	php_admin_value open_basedir none
+#</Directory>
+
+Options -Indexes

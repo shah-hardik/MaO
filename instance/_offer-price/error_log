@@ -1,0 +1,2 @@
+[30-May-2013 06:29:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/offerapp/public_html/coupon-API/coupon_ui.php:1) in /home/offerapp/public_html/coupon-API/coupon_ui.php on line 97
+[30-May-2013 06:29:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/offerapp/public_html/coupon-API/coupon_ui.php:1) in /home/offerapp/public_html/coupon-API/coupon_ui.php on line 97

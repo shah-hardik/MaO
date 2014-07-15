@@ -1,0 +1,85 @@
+<?php
+
+/**
+ * File to render the MaO Button widget
+ * 
+ * @author Hardik Shah <hardik@hciteam.com>
+ * @since September 14,2013
+ * 
+ */
+
+/**
+ * 
+ *  Function to render the HTML of the complete widget
+ * 
+ * @param String $customer_id ID of customer
+ * @param String $btn_text Button text from db
+ * @param String $style style associated with button ( for custom button )
+ * @param String $presetClass preset-class
+ * @return Array html of button
+ * 
+ * @author Hardik Shah <hardik@hciteam.com>
+ * @since September 14, 2013
+ * 
+ * 
+ */
+function getWidgetHTML($customer_id, $btn_text, $style, $presetClass = '') {
+    $buttonHTML = $presetClass ? $defaultPresetButtonHTML : $styledButtonHTML;
+    if ($presetClass) {
+        $continueButton = renderPresetButton('cClick()', "Click Here To Checkout", $presetClass);
+        $buttonHTML = renderPresetButton('OfferPriceSubmit();', $btn_text, $presetClass);
+        $buttonHTML .= '<link href="' . _OFFER_APP_CSS_PATH . '" rel="stylesheet" />';
+    } else {
+        $continueButton = renderStyledButton('cClick()', "Click Here To Checkout", $style);
+        $buttonHTML = renderStyledButton('OfferPriceSubmit();', $btn_text, $style);
+    }
+    
+  $default = '<div class="maoContent"><div id="cong_inline"></div><div  id="inline-oform"> <form action="" method="post" id="ContactForm" class="PL20 popup_form"> <div class="buyproduct"><h3>Like the Product</h3>make us an offer in it.</div><div style=""><span class="dollarspan">$</span><input type="text" onblur="return change_blur(this.value);" onfocus="return change_focus(this.value);" value="Like The Product? Make Us An Offer" class="likeproduct" name="contact_fullname" id="contact_fullname"> <br /> ' . $buttonHTML . ' <div style="display:none;" id="loader_img1"> Please Wait...</div> </div> </div><div style="display:none;width:417px;" id="success_offer"><div style="display:none;width:417px;" id="addtocart2"><input type="text" disabled="disabled" value="Congrats, Your Offer Accepted" class="contact_fullname" name="contact_fullname" id="contact_fullname"> ' . $continueButton . '</div><div><a class="resetcoupon" onclick="return ResetCoupon();" href="javascript:void(0);">Try Again</a></div></div><div id="customer_id_val" style="display:none;">' . $customer_id . '</div><div class="powered">Powered by Mao</div></div>';
+
+//    $bgColor = "";
+//    switch ($customer_id) {
+//        case "8": // special case for mensring
+//            $html = '<div id="cong_inline" ></div><div style="width:404px;text-align:left;margin:15px 0px;padding:15px;border:1px solid white;border-radius:12px;" id="inline-oform"> <form action="" method="post" id="ContactForm" class=""><div><h3>Like The Product? Make Us An Offer Now.</h3></div> <div style="color:#FDD017">Simply enter in price below and submit</div><div style="margin-top:10px;"><h3 style="float:left">$</h3><input type="hidden" name="page_id" id="page_id" value="43"><input type="text" onblur="return change_blur(this.value);" onfocus="return change_focus(this.value);" value="Like The Product? Make Us An Offer" style="float:left;margin-left:10px;width:260px;height:24px;font-size:13px;color:#000;font-weight:bold;" name="contact_fullname" id="contact_fullname"> <div style="margin-top:5px;clear:both">&nbsp;</div><input  type="button" style="background-image:none !important;' . $style . ';clear:both;width:auto !important;" value="' . $btn_text . '" onclick="OfferPriceSubmit();" class="ContactButton btn primary"> <span style="display:none;" id="loader_img1"> <img style="width:25px;height:25px;" src="/template/images/loader.gif">Please Wait...</span> </div> </div><div style="display:none;width:417px;" id="success_offer"><div style="display:none;width:417px;" id="addtocart2"><input type="text" disabled="disabled" value="Congrats, Your Offer Accepted" style="width:222px;height:24px;font-size:13px;font-weight:bold;" name="contact_fullname" id="contact_fullname"><div style="clear:both;margin-top:5px"></div> <input type="button" style="background-image:none !important;"' . $style . '";clear:both;;width:auto !important;;" value="Click Here To Checkout" class="ContactButton btn primary" onclick="cClick()" id="copytext1"></div><div><a style="margin-left:10px;" onclick="return ResetCoupon();" href="javascript:void(0);">Try Again</a></div></div><div id="customer_id_val" style="display:none;">' . $customer_id . '</div>';
+//            $bgColor = "white";
+//            $html = "";
+//            break;
+//        default:
+//            $html = $default;
+//    }
+    $html = $default;
+    $bgColor = "";
+
+    return array("html" => $html, "bgColor" => $bgColor);
+}
+
+/**
+ * 
+ * @param String $onclick OnClick Handler
+ * @param String $btn_text BTN Text
+ * @param String $presetClass Preset class
+ * @return string Rendered button html
+ * 
+ * @author Hardik Shah <hardik@hciteam.com>
+ * @since September 14, 2013
+ * 
+ * 
+ */
+function renderPresetButton($onclick, $btn_text, $presetClass) {
+    return '<input type="button" style="margin-top:12px;" class=" ' . $presetClass . '"  onclick="' . $onclick . '"  value="' . $btn_text . '" />';
+}
+
+/**
+ * 
+ * @param String $onclick OnClick handler
+ * @param String $btn_text BTN Text
+ * @param String $style  Style Text
+ * @return string
+ * 
+ * @author Hardik Shah <hardik@hciteam.com>
+ * @since September 14, 2013
+ * 
+ * 
+ */
+function renderStyledButton($onclick, $btn_text, $style) {
+    return '<input  type="button" style="margin-top:12px;background-image:none !important;' . $style . ';clear:both;width:auto !important;" value="' . $btn_text . '" onclick="' . $onclick . '" class=" ContactButton btn primary"> ';
+}

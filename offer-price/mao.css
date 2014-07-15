@@ -1,0 +1,487 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700);
+@import url(http://fonts.googleapis.com/css?family=Life+Savers:400,700);
+
+
+/********** Main setup  ************/
+
+#mao{clear:both;margin:10px 0px !important;}
+
+#mao .btn-block {
+line-height: 0px;
+    width: 85%  !important;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#mao .btn-custom-1 {
+    background-color: hsl(195, 79%, 43%) !important;
+    background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#56c5eb", endColorstr="#1798c4");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#56c5eb), to(#1798c4));
+    background-image: -moz-linear-gradient(top, #56c5eb, #1798c4); background-image: -ms-linear-gradient(top, #56c5eb, #1798c4);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #56c5eb), color-stop(100%, #1798c4));
+    background-image: -webkit-linear-gradient(top, #56c5eb, #1798c4); background-image: -o-linear-gradient(top, #56c5eb, #1798c4);
+    background-image: linear-gradient(#56c5eb, #1798c4);
+    border-color: #1798c4 #1798c4 hsl(195, 79%, 38%);
+    color: #333 !important;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.33);
+    -webkit-font-smoothing: antialiased; }
+
+#mao .btn {
+    background-color: #eee  !important;
+    border: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+	float:none !important;
+	background-image:none !important;
+    color: #444;
+    padding: 5px 9px;
+    filter: none;
+}
+#mao .btn.btn-text-left {
+    text-align: left;
+}
+#mao .btn i {
+    font-size: 14px;
+}
+#mao .btn:hover {
+    background-color: #ccc  !important;
+    text-shadow: none;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+#mao .btn:active {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+#mao .btn:focus {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+#mao .btn.btn-primary {
+    background-color: #368ee0  !important;
+    color: #fff  !important;
+    text-shadow: none;
+    filter: none;
+}
+#mao .btn.btn-primary:hover {
+    background-color: #368ee0  !important;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+#mao .btn.btn-info {
+    background-color: #a4ccf1  !important;
+    text-shadow: none;
+    filter: none;
+}
+#mao .btn.btn-info:hover {
+    background-color: #62a7e7  !important;
+    color: #333;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+#mao .btn.btn-warning {
+    background-color: #fab750  !important;
+    text-shadow: none;
+    filter: none;
+}
+#mao .btn.btn-warning:hover {
+    background-color: #f8a31f  !important;
+    color: #333;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+#mao .btn.btn-danger {
+    background-color: #f43  !important;
+    text-shadow: none;
+    color: #fff  !important;
+    filter: none;
+}
+#mao .btn.btn-danger:hover {
+    background-color: #e51400  !important;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+#mao .btn.btn-success {
+    background-color: #40bf40  !important;
+    text-shadow: none;
+    color: #fff  !important;
+    filter: none;
+}
+#mao .btn.btn-success:hover {
+    background-color: #393  !important;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+#mao .btn.btn-inverse {
+    background-color: #111  !important;
+    text-shadow: none;
+    color: #fff  !important;
+    filter: none;
+}
+#mao .btn.btn-inverse:hover {
+    background-color: #000  !important;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+
+
+#mao .btn-group .dropdown.btn-group .pagination {
+    font-size: 13px;
+}
+#mao .btn-group .pagination {
+    margin: 0;
+}
+#mao .btn-group .pagination ul {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+#mao .label {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-shadow: none;
+}
+/*********** Buttons *************/
+
+
+#mao .blue {
+    background-color: #368ee0 !important;
+}
+#mao .orange {
+    background-color: #f8a31f !important;
+}
+#mao .red {
+    background-color: #e51400 !important;
+    color:white;
+}
+#mao .green {
+    background-color: #393 !important;
+    color:white !important;
+}
+#mao .lime {
+    background-color: #8cbf26 !important;
+}
+#mao .teal {
+    background-color: #00aba9 !important;
+}
+#mao .purple {
+    background-color: #ff0097 !important;
+    color:white !important;
+}
+#mao .brown {
+    background-color: #a05000 !important;
+    color:white !important;
+}
+#mao .pink {
+    background-color: #e671b8 !important;
+}
+#mao .magenta {
+    background-color: #a200ff !important;
+    color:white !important;
+}
+#mao .grey {
+    background-color: #333 !important;
+    color:white !important;
+}
+#mao .darkblue {
+    background-color: #204e81 !important;
+    color:white !important;
+}
+#mao .lightred {
+    background-color: #e63a3a !important;
+    color:white !important;
+}
+#mao .lightgrey {
+    background-color: #666 !important;
+    color:white !important;
+}
+#mao .satblue {
+    background-color: #2c5e7b !important;
+}
+#mao .satgreen {
+    background-color: #56af45 !important;
+}
+#mao .black {
+    background-color: #000;
+    color:white;
+}
+#mao .radius0{
+    border-radius: 0px !important;
+}
+
+#mao .radius5{
+    border-radius: 5px !important;
+}
+#mao .height{
+    height: auto !important;
+    font-size: large !important;
+}
+#mao .alert-info h4 {
+    color: #3A87AD !important;
+}
+#mao .alert h4 {
+    margin: 0 !important;
+}
+
+/*
+.AddCartButton_bk_mn {
+    background-image: url("http://makeanofferapp.com/mao_alpha/offer-price/mao-icons.png") !important;
+    background-position: 7px -41px !important;
+    background-repeat: no-repeat !important;
+    font-size: 13px;
+    height: 28px!important;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+}
+
+.AddCartButton_wt_mn {
+    background-image: url("http://makeanofferapp.com/mao_alpha/offer-price/mao-icons.png") !important;
+    background-position: 7px -9px !important;
+    background-repeat: no-repeat !important;
+    font-size: 13px!important;
+    height: 28px!important;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+}
+
+.icon_bk_mn {
+    background-image: url("http://makeanofferapp.com/mao_alpha/offer-price/mao-icons.png") !important;
+    background-position: 7px -39px !important;
+    background-repeat: no-repeat !important;
+    height: 34px;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+}
+.icon_bk_mn:hover{
+    background-image: url("mao-icons.png") !important;
+    background-position: 7px 12px !important;
+    background-repeat: no-repeat !important;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+.icon_wt_mn {
+    background-image: url("mao-icons.png") !important;
+    background-position: 7px 12px !important;
+    background-repeat: no-repeat !important;
+    height: 34px;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+}
+.icon_wt_mn:hover {
+    background-image: url("mao-icons.png") !important;
+    background-position: 7px 12px !important;
+    background-repeat: no-repeat !important;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+.icon_bk_tg {
+    background-image: url("mao-icons.png") !important;
+    background-position: 7px -158px !important;
+    background-repeat: no-repeat !important;
+    height: 34px;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+}
+.icon_bk_tg:hover {
+    background-image: url("mao-icons.png") !important;
+    background-position: 7px -158px !important;
+    background-repeat: no-repeat !important;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+.icon_wt_tg {
+    background-image: url("mao-icons.png") !important;
+    background-position: 7px -92px !important;
+    background-repeat: no-repeat !important;
+    height: 34px;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+}
+.icon_wt_tg:hover {
+    background-image: url("mao-icons.png") !important;
+    background-position: 7px -92px !important;
+    background-repeat: no-repeat !important;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+
+
+.icon_bk_mn_block {
+    background-image: url("http://makeanofferapp.com/mao_alpha/offer-price/mao-icons.png") !important;
+    background-position: 70px -39px !important;
+    background-repeat: no-repeat !important;
+    height: 34px;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+}
+.icon_bk_mn_block:hover{
+    background-image: url("mao-icons.png") !important;
+    background-position: 70px 12px !important;
+    background-repeat: no-repeat !important;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+.icon_wt_mn_block {
+    background-image: url("mao-icons.png") !important;
+    background-position: 70px 12px !important;
+    background-repeat: no-repeat !important;
+    height: 34px;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+}
+.icon_wt_mn_block:hover {
+    background-image: url("mao-icons.png") !important;
+    background-position: 70px 12px !important;
+    background-repeat: no-repeat !important;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+.icon_bk_tg_block {
+    background-image: url("mao-icons.png") !important;
+    background-position: 70px -158px !important;
+    background-repeat: no-repeat !important;
+    height: 34px;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+}
+.icon_bk_tg_block:hover {
+    background-image: url("mao-icons.png") !important;
+    background-position: 70px -158px !important;
+    background-repeat: no-repeat !important;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+.icon_wt_tg_block {
+    background-image: url("mao-icons.png") !important;
+    background-position: 70px -92px !important;
+    background-repeat: no-repeat !important;
+    height: 34px;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+}
+.icon_wt_tg_block:hover {
+    background-image: url("mao-icons.png") !important;
+    background-position: 70px -92px !important;
+    background-repeat: no-repeat !important;
+    margin-right: 4px!important;
+    padding-left: 27px!important;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+
+
+.icon_wt_mn_big {
+    background-image: url("mao-icons.png") !important;
+    background-position: 33px 13px !important;
+    background-repeat: no-repeat !important;
+    font-size: 16px;
+    padding: 10px 15px 10px 30px;
+}
+
+.icon_wt_mn_big:hover {
+    background-image: url("mao-icons.png") !important;
+    background-position: 33px 13px !important;
+    background-repeat: no-repeat !important;
+    font-size: 16px;
+    padding: 10px 15px 10px 30px;
+}
+
+.icon_bk_mn_big{
+    background-image: url("mao-icons.png") !important;
+    background-position: 33px -34px !important;
+    background-repeat: no-repeat !important;
+    font-size: 16px;
+    padding: 10px 15px 10px 30px;
+
+}
+.icon_bk_mn_big:hover{
+    background-image: url("mao-icons.png") !important;
+    background-position: 33px -34px !important;
+    background-repeat: no-repeat !important;
+    font-size: 16px;
+    padding: 10px 15px 10px 30px;
+
+}
+
+.icon_bk_tg_big{
+    background-image: url("mao-icons.png") !important;
+    background-position: 33px -156px !important;
+    background-repeat: no-repeat !important;
+    font-size: 16px;
+    padding: 10px 15px 10px 30px;
+}
+.icon_bk_tg_big:hover{
+    background-image: url("mao-icons.png") !important;
+    background-position: 33px -156px !important;
+    background-repeat: no-repeat !important;
+    font-size: 16px;
+    padding: 10px 15px 10px 30px;
+}
+
+
+.icon_wt_tg_big {
+    background-image: url("mao-icons.png") !important;
+    background-position: 33px -91px !important;
+    background-repeat: no-repeat !important;
+    font-size: 16px;
+    padding: 10px 15px 10px 30px;
+}
+.icon_wt_tg_big:hover {
+    background-image: url("mao-icons.png") !important;
+    background-position: 33px -91px !important;
+    background-repeat: no-repeat !important;
+    font-size: 16px;
+    padding: 10px 15px 10px 30px;
+}*/

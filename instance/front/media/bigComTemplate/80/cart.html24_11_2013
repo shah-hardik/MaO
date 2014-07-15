@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+%%Panel.HTMLHead%%
+<body>
+<script type="text/javascript" src="%%GLOBAL_ShopPath%%/templates/Bedazzled/js/cart.js?%%GLOBAL_JSCacheToken%%"></script>
+<div id="Container">
+    %%Panel.Header%%
+    <div id="Wrapper">
+    <div class="top_cav"></div>
+        <div class="mid_cav">
+        <div class="w_top"></div>
+        <div class="w_mid">
+        <div class="cart_left">
+        <div class="Content Wide" id="LayoutColumn1">
+            
+            %%Panel.CartHeader%%
+            <div class="fullwidth">
+                %%Panel.CartStatusMessage%%
+                %%Panel.CartContent%%
+                <div class="CartCode">
+                    %%Panel.CartCouponCodeBox%%
+                    %%Panel.CartGiftCertificateCodeBox%%
+                </div>
+                <div class="shipping_box">
+                <img src="%%GLOBAL_IMG_PATH%%/shipping_ico.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="cart_right">
+        <div class="ico_box">
+       <div class="i_box"> <img src="%%GLOBAL_IMG_PATH%%/ico1.png" alt="" /></div>
+        <p>
+        <strong>ORDER BY PHONE</strong> <br />
+1.740.743.MOTO (6686) <br />
+Hours: Mon-Fri: 10a-2p (PST)<br /> 
+            or Chat @ Bottom of Page<br /> 
+</p>
+<br class="clear" />
+        </div>
+        <div class="ico_box">
+         <div class="i_box"><img src="%%GLOBAL_IMG_PATH%%/ico2.png" alt="" /></div>
+        <p>
+        <strong>FREE SHIPPING</strong><br /> 
+On Orders over $59.99
+</p>
+<br class="clear" />
+        </div>
+        <div class="ico_box">
+         <div class="i_box"><img src="%%GLOBAL_IMG_PATH%%/ico3.png" alt="" /></div>
+        <p>
+        <strong>EASY RETURNS </strong><br /> 
+Policy <br /> 
+</p>
+<br class="clear" />
+        </div>
+        <div class="ico_box">
+         <div class="i_box"><img src="%%GLOBAL_IMG_PATH%%/ico4.png" alt="" /></div>
+        <p>
+        <strong>WE BEAT PRICES </strong><br />
+      
+</p>
+<br class="clear" />
+        </div>
+        
+        <div class="ico_box">
+         <div class="i_box"><img src="%%GLOBAL_IMG_PATH%%/ico5.png" alt="" /></div>
+        <p>
+        <strong>SECURE SHOPPING</strong><br />
+        Secure SSL Checkout
+</p>
+<br class="clear" />
+        </div>
+        <div class="ico_box">
+        <div class="i_box"> <img src="%%GLOBAL_IMG_PATH%%/ico6.png" alt="" /></div>
+        <p>
+        <strong>FAST SHIPPING</strong><br />
+        2-24 Hours in Most Cases
+</p>
+<br class="clear" />
+        </div>
+       <div class="card">
+        
+       
+        <strong>SHOP WITH CONFIDENCE</strong><br />
+       <img src="%%GLOBAL_IMG_PATH%%/card.png" alt="" />
+
+<br class="clear" />
+        </div> 
+        <div class="card nbr">
+        
+       
+        <strong>SECURE SHOPPING</strong><br />
+       <img src="%%GLOBAL_IMG_PATH%%/geo1.png" alt="" />
+
+<br class="clear" />
+        </div>
+        </div>
+        <br class="Clear" />
+        </div>
+         <div class="w_bot"></div>
+        <div class="bot_cav"></div>
+    </div>
+    </div>
+        <br class="Clear" />
+    </div>
+    %%Panel.Footer%%
+</div>
+</body>
+</html>

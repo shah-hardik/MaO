@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+%%Panel.HTMLHead%%
+<body>
+<script type="text/javascript" src="%%GLOBAL_ShopPath%%/templates/Bedazzled/js/cart.js?%%GLOBAL_JSCacheToken%%"></script>
+<div id="Container">
+	%%Panel.Header%%
+	<div id="Wrapper">
+    <div class="top_cav"></div>
+        <div class="mid_cav">
+        <div class="w_top"></div>
+        <div class="w_mid">
+		<div class="Content Widest" id="LayoutColumn1">
+			%%Panel.CartBreadcrumb%%
+			%%Panel.CartHeader%%
+			<div class="fullwidth">
+				%%Panel.CartStatusMessage%%
+				%%Panel.CartContent%%
+				<div class="CartCode">
+					%%Panel.CartCouponCodeBox%%
+					%%Panel.CartGiftCertificateCodeBox%%
+				</div>
+			</div>
+		</div>
+        <br class="Clear" />
+        </div>
+         <div class="w_bot"></div>
+        <div class="bot_cav"></div>
+	</div>
+    </div>
+		<br class="Clear" />
+	</div>
+	%%Panel.Footer%%
+</div>
+</body>
+</html>

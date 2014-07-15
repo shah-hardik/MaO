@@ -1,0 +1,74 @@
+%%GLOBAL_AddToCartButtonControlScript%%
+<form method="post" action="%%GLOBAL_CartLink%%" onsubmit="return check_add_to_cart(this, %%GLOBAL_ProductOptionRequired%%) %%GLOBAL_FastCartButtonJs%%"  enctype="multipart/form-data" id="productDetailsAddToCartForm">
+    <input type="hidden" name="action" value="add" />
+    <input type="hidden" name="product_id" value="%%GLOBAL_ProductId%%" />
+    <input type="hidden" name="variation_id" class="CartVariationId" value="" />
+    <input type="hidden" name="currency_id" value="" />
+    <div class="ProductDetailsGrid ProductAddToCart">
+        %%SNIPPET_ProductFieldsList%%
+        <div class="ProductOptionList">
+            %%SNIPPET_VariationList%%
+        </div>
+        <div class="productAttributeList" style="%%GLOBAL_HideProductAttributeList%%">%%GLOBAL_ProductAttributeList%%</div>
+        %%SNIPPET_EventDate%%
+        
+        <div class="OutOfStockMessage">
+            %%SNIPPET_SideAddItemSoldOut%%
+        </div>
+        
+        <div class="AddCartActionBox" style="display: %%GLOBAL_DisplayAdd%%">
+            <div class="DetailRow" style="display: %%GLOBAL_DisplayAdd%%">
+                <div class="Label QuantityInput" style="display: %%GLOBAL_DisplayAddQty%%">%%LNG_QuantityFull%%:</div>
+                <div class="Value AddCartButton">
+                    <span class="" style="display: %%GLOBAL_DisplayAddQty%%;">
+                        %%GLOBAL_AddToCartQty%%
+                    </span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="Value AddCartAction">
+                <span class="DetailRow">
+                <input type="submit" class="btn AddCartButton" value="Add to Cart"  style="display: " />
+                </span>
+                
+                
+                    
+                <a class="BulkDiscountLink" href="#" onclick="$.iModal({data: $('#ProductDetailsBulkDiscountThickBox').html(), width: 600}); return false;" style="display: %%GLOBAL_HideBulkDiscountLink%%;">
+                    %%LNG_BulkDiscountLink%%
+                </a>
+            
+              <input type="button" class="btn WishListButton" value="Add to Wishlist" style="display:" />
+               
+                
+            </div>
+            
+        </div>
+        
+        
+      
+        
+        
+        
+    </div>
+</form>
+
+<!-- Add to Wishlist -->
+
+
+
+
+
+%%GLOBAL_ProductBulkDiscountThickBox%%
+
+<script language="javascript" type="text/javascript">//<![CDATA[
+lang.OptionMessage = "%%GLOBAL_OptionMessage%%";
+lang.VariationSoldOutMessage = "%%LNG_VariationSoldOutMessage%%";
+lang.InvalidQuantity = "%%LNG_InvalidQuantity%%";
+lang.EnterRequiredField = "%%LNG_EnterRequiredField%%";
+lang.InvalidFileTypeJS = "%%LNG_InvalidFileTypeJS%%";
+var ShowAddToCartQtyBox = "%%GLOBAL_ShowAddToCartQtyBox%%";
+%%GLOBAL_ProductMinMaxQtyJavascript%%
+//]]></script>
+%%GLOBAL_EventDateJavascript%%
