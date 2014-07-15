@@ -76,54 +76,6 @@ if ($Customization != 0) {
 
 $btn_text_fix = 'Make on offer';
 
-$buttons_array = array(
-    "btn btn-primary radius0 icon_wt_mn",
-    "btn btn-info radius0 icon_bk_mn",
-    "btn btn-success radius0 icon_wt_mn",
-    "btn orange radius0 icon_bk_mn",
-    "btn lightred radius0 icon_wt_tg",
-    "btn pink radius0 icon_bk_tg",
-    "btn purple radius0 icon_wt_tg",
-    "btn magenta radius0 icon_wt_tg",
-    "btn lightgrey radius0 icon_wt_tg",
-    "btn btn-inverse radius0 icon_wt_tg"
-);
-$buttons_array_round = array(
-    "btn btn-primary radius5 icon_wt_mn",
-    "btn btn-info radius5 icon_bk_mn",
-    "btn btn-success radius5 icon_wt_mn",
-    "btn orange radius5 icon_bk_mn",
-    "btn lightred radius5 icon_wt_tg",
-    "btn pink radius5 icon_bk_tg",
-    "btn purple radius5 icon_wt_tg",
-    "btn magenta radius5 icon_wt_tg",
-    "btn lightgrey radius0 icon_wt_tg",
-    "btn btn-inverse radius0 icon_wt_tg"
-);
-$buttons_array_round_block = array(
-    "btn-block btn btn-primary radius5 icon_wt_mn",
-    "btn-block btn btn-info radius5 icon_bk_mn",
-    "btn-block btn btn-success radius5 icon_wt_mn",
-    "btn-block btn orange radius5 icon_bk_mn",
-    "btn-block btn lightred radius5 icon_wt_tg",
-    "btn-block btn pink radius5 icon_bk_tg",
-    "btn-block btn purple radius5 icon_wt_tg",
-    "btn-block btn magenta radius5 icon_wt_tg",
-    "btn-block btn lightgrey radius5 icon_wt_tg",
-    "btn-block btn btn-inverse radius5 icon_wt_tg"
-);
-$buttons_array_big = array(
-    "height btn-block btn btn-primary radius5 icon_wt_mn_big",
-    "height btn-block btn btn-info radius5 icon_bk_mn_big",
-    "height btn-block btn btn-success radius5 icon_wt_mn_big",
-    "height btn-block btn orange radius5 icon_bk_mn_big",
-    "height btn-block btn lightred radius5 icon_wt_tg_big",
-    "height btn-block btn pink radius5 icon_bk_tg_big",
-    "height btn-block btn purple radius5 icon_wt_tg_big",
-    "height btn-block btn magenta radius5 icon_wt_tg_big",
-    "height btn-block btn lightgrey radius5 icon_wt_tg_big",
-    "height btn-block btn btn-inverse radius5 icon_wt_tg_big"
-);
 
 $btn_text = trim($btn_text) == '' ? "Submit Your Offer Now" : $btn_text;
 

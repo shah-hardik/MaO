@@ -21,7 +21,7 @@ class Db {
     # constructor
 
     public function __construct() {
-        $this->_link = mysql_connect(DB_HOST, DB_UNAME, DB_PASSWORD) or trigger_error(mysql_error(), 1024);
+        $this->_link = mysql_connect('localhost', 'root','' ) or trigger_error(mysql_error(), 1024);
         mysql_select_db(DB_NAME) or trigger_error(mysql_error(), 1024);
         mysql_query("SET NAMES 'utf8'");
     }

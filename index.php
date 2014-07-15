@@ -20,7 +20,7 @@ delete from customers_offers where cp_c_id = '137';
  */
 
 session_start();
-ini_set("display_errors","on");
+ini_set("display_errors","off");
 //error_reporting(E_ALL);
 error_reporting(E_ALL ^ E_NOTICE);
 date_default_timezone_set('America/Denver');
